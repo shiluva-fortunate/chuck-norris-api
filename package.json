@@ -11,7 +11,8 @@
     "react-scripts": "0.9.x",
     "redux": "^4.0.5",
     "redux-actions": "^2.6.5",
-    "semantic-ui-react": "^0.88.2"
+    "semantic-ui-react": "^0.88.2",
+    "styled-components": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {

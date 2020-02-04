@@ -7,19 +7,6 @@ body {
     background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
-.badge{
-    color: #ff4081;
-    background-color: #fff;
-    padding: 10px 5px;
-    width: 120px;
-    border-radius: 5px;
-    text-transform: capitalize;
-    margin-left: 5%;
-    margin-top: 2%;
-}
-
-
 .header {
     padding-top: 10%;
     width: 45%;
