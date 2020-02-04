@@ -8,14 +8,22 @@ import Joke from './components/joke';
 
 export default () => {
   return (
-    <Grid className='content-grid'>
+    <div className='landing'>
+      <p className='badge'>Chuck Norris</p>
       <div className='header'>
         <div className='logo-container'>
           <img src={logo} className='App-logo' alt='logo' />
-        </div>
-        <Joke />
       </div>
-      <Catagories />
-    </Grid>
+      </div>
+      <div className='content-container'>
+        <div className='joke-container'>
+          <Joke />
+        </div>
+        <div className='list-container'>
+          <Catagories />
+        </div>
+        
+      </div>  
+    </div>
   );
 }

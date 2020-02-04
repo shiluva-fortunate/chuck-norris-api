@@ -35,11 +35,10 @@ class Catagories extends Component {
 
     render() {
         return (
-            <Cell col={6}>
-                <div className='list-container'>
-                    <ul className='list'> {this.renderCatagories()} </ul>
-                </div>
-            </Cell>
+            
+                <ul className='list'> {this.renderCatagories()} </ul>
+            
+           
         );
     }
 }
