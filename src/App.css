@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: "Raleway", sans-serif !important;
+}
+.header {
+    padding-top: 5%;
+}
+
+.App-logo {
+    height: 150px;
+    width: 250px;
+    margin: auto;
+}
+.content-grid {
+}
+.paragraph {
+}
+
+.list-container {
+    padding: 0 5%;
+    height: 400px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    color: #000;
+    border: 1px solid black;
+    background-color: #ff4081;
+    padding: 5px 10px;
+    min-width: 50px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 5%;
+}
+
+.joke {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    background: none;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    transition: all 0.4s ease-in-out;
+    margin: auto;
+    margin-top: 5% !important;
+    display: flex;
+    justify-self: center;
+}
+
+/* @media screen and (max-width: 425px){
+  .header{
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, 50%);
+  }
+  .App-logo{
+    height: 80px;
+    width: 180px;
+    margin: auto;
+    display: flex;
+    justify-self: center;
+  }
+} */
